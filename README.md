@@ -1,2 +1,201 @@
-# ESFromScratch
+# ES from Scratch
+
 A project to rewrite ES1 from scratch, in JavaScript.
+
+To be exact, this project is currently trying to translate native ECMAScript 1 objects.
+
+- [x] Start
+- [ ] The global object
+ - [ ] NaN
+ - [ ] Infinity
+ - [ ] parseInt(string, radix)
+ - [ ] parseFloat(string)
+ - [ ] escape(string)
+ - [ ] unescape(string)
+ - [ ] isNaN(number)
+ - [ ] isFinite(number)
+ - [ ] Object()
+ - [ ] Function()
+ - [ ] Array()
+ - [ ] String()
+ - [ ] Boolean()
+ - [ ] Number()
+ - [ ] Date()
+ - [ ] Math
+- [ ] The Object objects
+ - [ ] Object(value)
+ - [ ] Object()
+ - [ ] new Object(value)
+ - [ ] new Object()
+ - [ ] Object.prototype
+ - [ ] Object.prototype.constructor
+ - [ ] Object.prototype.toString()
+ - [ ] Object.prototype.valueOf()
+- [ ] The Function objects
+ - [ ] Function(*p, body)
+ - [ ] new Function(*p, body)
+ - [ ] Function.prototype
+ - [ ] Function.length
+ - [ ] Function.prototype.constructor
+ - [ ] Function.prototype.toString()
+ - [ ] length
+ - [ ] prototype
+ - [ ] arguments
+- [ ] The Array objects
+ - [ ] Array(*item)
+ - [ ] Array(len)
+ - [ ] Array()
+ - [ ] new Array(*item)
+ - [ ] new Array(len)
+ - [ ] new Array()
+ - [ ] Array.prototype
+ - [ ] Array.length
+ - [ ] Array.prototype.constructor
+ - [ ] Array.prototype.toString()
+ - [ ] Array.prototype.join(separator)
+ - [ ] Array.prototype.reverse()
+ - [ ] Array.prototype.sort(comparefn)
+ - [ ] length
+- [ ] The String objects
+ - [ ] String(value)
+ - [ ] String()
+ - [ ] new String(value)
+ - [ ] new String()
+ - [ ] String.prototype
+ - [ ] String.fromCharCode(*char)
+ - [ ] String.prototype.constructor
+ - [ ] String.prototype.toString()
+ - [ ] String.prototype.valueOf()
+ - [ ] String.prototype.charAt(pos)
+ - [ ] String.prototype.charCodeAt(pos)
+ - [ ] String.prototype.indexOf(searchString, position)
+ - [ ] String.prototype.lastIndexOf(searchString, position)
+ - [ ] String.prototype.split(separator)
+ - [ ] String.prototype.substring(start)
+ - [ ] String.prototype.substring(start, end)
+ - [ ] String.prototype.toLowerCase
+ - [ ] String.prototype.toUpperCase
+ - [ ] length
+- [ ] The Boolean objects
+ - [ ] Boolean(value)
+ - [ ] Boolean()
+ - [ ] new Boolean(value)
+ - [ ] new Boolean()
+ - [ ] Boolean.prototype
+ - [ ] Boolean.prototype.constructor
+ - [ ] Boolean.prototype.toString()
+ - [ ] Boolean.prototype.valueOf()
+- [ ] The Number objects
+ - [ ] Number(value)
+ - [ ] Number()
+ - [ ] new Number(value)
+ - [ ] new Number()
+ - [ ] Number.prototype
+ - [ ] Number.MAX_VALUE
+ - [ ] Number.MIN_VALUE
+ - [ ] Number.NaN
+ - [ ] Number.NEGATIVE_INFINITY
+ - [ ] Number.POSITIVE_INFINITY
+ - [ ] Number.prototype.constructor
+ - [ ] Number.prototype.toString(radix)
+ - [ ] Number.prototype.valueOf()
+- [ ] The Math object
+ - [ ] E
+ - [ ] LN10
+ - [ ] LN2
+ - [ ] LOG2E
+ - [ ] LOG10E
+ - [ ] PI
+ - [ ] SQRT1_2
+ - [ ] SQRT2
+ - [ ] abs(x)
+ - [ ] acos(x)
+ - [ ] asin(x)
+ - [ ] atan(x)
+ - [ ] atan2(y, x)
+ - [ ] ceil(x)
+ - [ ] cos(x)
+ - [ ] exp(x)
+ - [ ] floor(x)
+ - [ ] log(x)
+ - [ ] max(x, y)
+ - [ ] min(x, y)
+ - [ ] pow(x, y)
+ - [ ] random()
+ - [ ] round(x)
+ - [ ] sin(x)
+ - [ ] sqrt(x)
+ - [ ] tan(x)
+- [ ] The Date objects
+ - [ ] MakeTime(hour, min, sec, ms)
+ - [ ] MakeDay(year, month, date)
+ - [ ] MakeDate(day, time)
+ - [ ] TimeClip(time)
+ - [ ] Date(year, month, date, hours, minutes, seconds, ms)
+ - [ ] Date(year, month, date, hours, minutes, seconds)
+ - [ ] Date(year, month, date, hours, minutes)
+ - [ ] Date(year, month, date, hours)
+ - [ ] Date(year, month, day)
+ - [ ] Date(year, month)
+ - [ ] Date(value)
+ - [ ] Date()
+ - [ ] new Date(year, month, date, hours, minutes, seconds, ms)
+ - [ ] new Date(year, month, date, hours, minutes, seconds)
+ - [ ] new Date(year, month, date, hours, minutes)
+ - [ ] new Date(year, month, date, hours)
+ - [ ] new Date(year, month, day)
+ - [ ] new Date(year, month)
+ - [ ] new Date(value)
+ - [ ] new Date()
+ - [ ] Date.prototype
+ - [ ] Date.parse(string)
+ - [ ] Date.UTC(year, month, date, hours, minutes, seconds, ms)
+ - [ ] Date.UTC(year, month, date, hours, minutes, seconds)
+ - [ ] Date.UTC(year, month, date, hours, minutes)
+ - [ ] Date.UTC(year, month, date, hours)
+ - [ ] Date.UTC(year, month, day)
+ - [ ] Date.UTC(year, month)
+ - [ ] Date.UTC(value)
+ - [ ] Date.UTC()
+ - [ ] Date.prototype.constructor
+ - [ ] Date.prototype.toString()
+ - [ ] Date.prototype.valueOf()
+ - [ ] Date.prototype.getTime()
+ - [ ] Date.prototype.getYear()
+ - [ ] Date.prototype.getFullYear()
+ - [ ] Date.prototype.getUTCFullYear()
+ - [ ] Date.prototype.getMonth()
+ - [ ] Date.prototype.getUTCMonth()
+ - [ ] Date.prototype.getDate()
+ - [ ] Date.prototype.getUTCDate()
+ - [ ] Date.prototype.getDay()
+ - [ ] Date.prototype.getUTCDay()
+ - [ ] Date.prototype.getHours()
+ - [ ] Date.prototype.getUTCHours()
+ - [ ] Date.prototype.getMinutes()
+ - [ ] Date.prototype.getUTCMinutes()
+ - [ ] Date.prototype.getSeconds()
+ - [ ] Date.prototype.getUTCSeconds()
+ - [ ] Date.prototype.getMilliseconds()
+ - [ ] Date.prototype.getUTCMilliseconds()
+ - [ ] Date.prototype.getTimezoneOffset()
+ - [ ] Date.prototype.setTime(time)
+ - [ ] Date.prototype.setMilliseconds(ms)
+ - [ ] Date.prototype.setUTCMilliseconds(ms)
+ - [ ] Date.prototype.setSeconds(sec [, ms ] )
+ - [ ] Date.prototype.setUTCSeconds(sec [, ms ] )
+ - [ ] Date.prototype.setMinutes(min [, sec [, ms ]] )
+ - [ ] Date.prototype.setUTCMinutes(min [, sec [, ms ]] )
+ - [ ] Date.prototype.setHours(hour [, min [, sec [, ms ]]] )
+ - [ ] Date.prototype.setUTCHours(hour [, min [, sec [, ms ]]] )
+ - [ ] Date.prototype.setDate(date)
+ - [ ] Date.prototype.setUTCDate(date)
+ - [ ] Date.prototype.setMonth(mon [, date ] )
+ - [ ] Date.prototype.setUTCMonth(mon [, date ] )
+ - [ ] Date.prototype.setFullYear(year [, mon [, date ]] )
+ - [ ] Date.prototype.setUTCFullYear(year [, mon [, date ]] )
+ - [ ] Date.prototype.setYear(year)
+ - [ ] Date.prototype.toLocaleString()
+ - [ ] Date.prototype.toUTCString()
+ - [ ] Date.prototype.toGMTString()
+- [ ] Congratulations! ES from Scratch is finished!
