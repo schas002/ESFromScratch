@@ -6,7 +6,7 @@ To be exact, this project is currently trying to translate native ECMAScript 1 o
 
 - [x] Start
 - [ ] The global object
- - [ ] NaN
+ - [x] NaN
  - [ ] Infinity
  - [ ] parseInt(string, radix)
  - [ ] parseFloat(string)
